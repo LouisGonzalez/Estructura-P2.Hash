@@ -155,7 +155,6 @@ void AVL::Insertar(Nodo* nodo) {
         Insertar(nodo);
     } else if (Vacio(padre)) {
         raiz = nodo;
-        cout << "EL NODO FUE INSERTADO CON EXITO." << endl;
     } else if (Vacio(actual)) {
         if (coincidencia == true) {
             nodo->Set_tupla(nodo->Get_tupla() + 1);
@@ -167,12 +166,10 @@ void AVL::Insertar(Nodo* nodo) {
                 padre->Set_izquierda(nodo);
 
                 Equilibrar(padre, IZQUIERDO, true);
-                cout << "EL NODO FUE INSERTADO CON EXITO." << endl;
             } else if (nodo->Get_id() > padre->Get_id()) {
                 nodo->Set_padre(padre);
                 padre->Set_derecha(nodo);
                 Equilibrar(padre, DERECHO, true);
-                cout << "EL NODO FUE INSERTADO CON EXITO." << endl;
             }
         }
 
