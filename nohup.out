@@ -1,0 +1,20 @@
+display-im6.q16: unable to open image `/home/luisitopapurey/Escritorio/Estructura': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `de': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `datos/P2.BaseDatosHash/imagen.png': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `/home/luisitopapurey/Escritorio/Estructura': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `de': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `datos/P2.BaseDatosHash/imagen.png': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `home/luisitopapurey/Escritorio/Estructura': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `de': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: unable to open image `datos/P2.BaseDatosHash/imagen.png': No existe el archivo o el directorio @ error/blob.c/OpenBlob/2701.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.
+display-im6.q16: improper image header `/home/luisitopapurey/Escritorio/prueba.txt' @ error/txt.c/ReadTXTImage/443.
+display-im6.q16: no decode delegate for this image format `' @ error/constitute.c/ReadImage/504.

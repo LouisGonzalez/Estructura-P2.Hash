@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>AVL.h</itemPath>
+      <itemPath>FuncionesHash.h</itemPath>
+      <itemPath>Graphviz.h</itemPath>
+      <itemPath>ListaTablas.h</itemPath>
+      <itemPath>Nodo.h</itemPath>
+      <itemPath>NodoHash.h</itemPath>
+      <itemPath>OperacionesInsercion.h</itemPath>
+      <itemPath>OperacionesSeleccion.h</itemPath>
+      <itemPath>OrdenamientoSeleccion.h</itemPath>
+      <itemPath>ReposicionamientoNodos.h</itemPath>
+      <itemPath>SeparacionPalabras.h</itemPath>
+      <itemPath>TablaHash.h</itemPath>
+      <itemPath>TextoConsultas.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>AVL.cpp</itemPath>
+      <itemPath>FuncionesHash.cpp</itemPath>
+      <itemPath>Graphviz.cpp</itemPath>
+      <itemPath>ListaTablas.cpp</itemPath>
+      <itemPath>Nodo.cpp</itemPath>
+      <itemPath>NodoHash.cpp</itemPath>
+      <itemPath>OperacionesInsercion.cpp</itemPath>
+      <itemPath>OperacionesSeleccion.cpp</itemPath>
+      <itemPath>OrdenamientoSeleccion.cpp</itemPath>
+      <itemPath>ReposicionamientoNodos.cpp</itemPath>
+      <itemPath>SeparacionPalabras.cpp</itemPath>
+      <itemPath>TablaHash.cpp</itemPath>
+      <itemPath>TextoConsultas.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>grafica.dot</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="AVL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AVL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FuncionesHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FuncionesHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graphviz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graphviz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaTablas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaTablas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OperacionesInsercion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OperacionesInsercion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OperacionesSeleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OperacionesSeleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OrdenamientoSeleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OrdenamientoSeleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReposicionamientoNodos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ReposicionamientoNodos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SeparacionPalabras.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SeparacionPalabras.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TablaHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TablaHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextoConsultas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextoConsultas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafica.dot" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="AVL.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AVL.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FuncionesHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FuncionesHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Graphviz.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Graphviz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ListaTablas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ListaTablas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Nodo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Nodo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="NodoHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="NodoHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OperacionesInsercion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OperacionesInsercion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OperacionesSeleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OperacionesSeleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="OrdenamientoSeleccion.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="OrdenamientoSeleccion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ReposicionamientoNodos.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ReposicionamientoNodos.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SeparacionPalabras.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SeparacionPalabras.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TablaHash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TablaHash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextoConsultas.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextoConsultas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="grafica.dot" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

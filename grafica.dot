@@ -1,0 +1,20 @@
+digraph G { 
+rankdir=LR;
+node [shape=record,width=.1,height=.1];
+node0 [label = "<f0> |<f1> |<f2> |<f3> |<f4> |" , height=2.5];
+Nodo0000[label = "<f0>5" ];
+
+Nodo0311[label = "<f0>asd" ];
+Nodo0300[label = "<f0>asd" ];
+Nodo0321[label = "<f0>3"];
+
+
+
+Nodo0311 -> Nodo0300;
+Nodo0311 -> Nodo0321;
+
+
+
+node0: f0 -> Nodo0000;
+node0: f3 -> Nodo0311;
+}
