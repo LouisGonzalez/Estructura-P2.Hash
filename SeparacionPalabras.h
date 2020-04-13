@@ -22,14 +22,11 @@ class SeparacionPalabras {
 public:
     SeparacionPalabras();
     SeparacionPalabras(const SeparacionPalabras& orig);
-    
     string* separacionColumnas(string, string, string);
     string* separacionColumnas2(string, string, string);
     string* separacionColumnas3(string, string, string);
     string* separacionColumnas4(string, string, string);
-    
     void acumuladorColumnas(TablaHash*&, string);
-    
     int totalColumnas(string, string);
     string quitarParentesisA(string);
     string quitarParentesisB(string);

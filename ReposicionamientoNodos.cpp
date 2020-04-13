@@ -28,7 +28,6 @@ Nodo* ReposicionamientoNodos::BuscarPorFuncion(int totalNodos, int nuevoNodo, Ta
     AVL *arbolUsado = nodoUsado->Get_AVL();
     int nodoActual = nodoUsado->Get_id();
     arbolUsado->Set_Actual(arbolUsado->Get_Raiz());
-
     int valorFuncion;
     while (!arbolUsado->Vacio(arbolUsado->Get_Actual())) {
         

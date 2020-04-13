@@ -24,7 +24,7 @@ public:
     AVL();
     void Insertar(Nodo*);
     void Reposicionamiento(Nodo*);
-    
+            
     void Insertar2(Nodo*, Nodo*, Nodo*);
     void Borrar(Nodo* nodo);
     bool Buscar(Nodo* nodo);

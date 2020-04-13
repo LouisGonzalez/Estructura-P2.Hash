@@ -23,13 +23,7 @@ public:
     OperacionesSeleccion();
     
     string verificarTipoColumna(string*, string*, string, int);
-    
-    
     void seleccionarNodos(string, string*, TablaHash*&);
-    
-    
-    
-    
     OperacionesSeleccion(const OperacionesSeleccion& orig);
     virtual ~OperacionesSeleccion();
 private:

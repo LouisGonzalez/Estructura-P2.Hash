@@ -26,12 +26,8 @@ public:
     OrdenamientoSeleccion();
     
     string* busquedaNodoTablas(string, int, TablaHash*&, string*);
-    
     string* busquedaArboles(string, int, TablaHash*&, NodoHash*, string*);
-    
     string* recorridoInOrden(string, int, Nodo*, bool, AVL*, string*);
-    
-    
     string* busquedaDatos(string, int, Nodo*, string*);
     
     OrdenamientoSeleccion(const OrdenamientoSeleccion& orig);
@@ -42,3 +38,4 @@ private:
 
 #endif /* ORDENAMIENTOSELECCION_H */
 
+    

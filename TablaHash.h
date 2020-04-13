@@ -35,17 +35,14 @@ public:
     void Set_TotalElementos(int);
     void Set_UltimaTupla(int);
     void Set_TotalColumnas(int);
-    
     void Set_ColumnasInt(int);
     void Set_ColumnasString(int);
     void Set_ColumnasDouble(int);
     void Set_ColumnasChar(int);
-    
     int Get_ColumnasInt();
     int Get_ColumnasString();
     int Get_ColumnasDouble();
     int Get_ColumnasChar();
-    
     int Get_TotalElementos();
     int Get_TotalNodos();
     int Get_TotalColumnas();
@@ -57,13 +54,10 @@ public:
     NodoHash* Get_ultimo();
     TablaHash* Get_siguiente();
     TablaHash* Get_anterior();
-    
     void insertarNodo(NodoHash*);
     void crearNodosPrincipales();
     NodoHash* buscarNodo(int);
-    
     void verificarTotalColumnas(TablaHash*&);
-    
     void reposicionamientoNodos(int, TablaHash*&);
     
     TablaHash(const TablaHash& orig);
