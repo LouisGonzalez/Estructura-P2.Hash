@@ -64,7 +64,7 @@ void FuncionesHash::reHashing(TablaHash *&tabla){
     double calculo = (double)tabla->Get_TotalElementos()/ (double)tabla->Get_TotalNodos();
     int factorCarga = calculo * 100;
    // cout << "El factor de carga es del: " << factorCarga << endl;
-    if(factorCarga > 80){
+    if(factorCarga > 60){
         NodoHash* nodo = new NodoHash();
         nodo->Set_id(tabla->Get_TotalNodos());
         tabla->insertarNodo(nodo);
