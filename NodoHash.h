@@ -26,12 +26,10 @@ public:
     void Set_Siguiente(NodoHash*);
     void Set_Anterior(NodoHash*);
     void Set_AVL(AVL*);
-    
     int Get_id();
     NodoHash* Get_Siguiente();
     NodoHash* Get_Anterior();
     AVL* Get_AVL();
-    
     NodoHash(const NodoHash& orig);
     virtual ~NodoHash();
 private:

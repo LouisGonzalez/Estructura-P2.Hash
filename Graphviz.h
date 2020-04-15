@@ -27,23 +27,14 @@ public:
     Graphviz();
     
     void dibujoGrafo(TablaHash*&, string);
-    
     string convertirIntString(int);
-    
     string convertirDoubleString(double);
-    
     string convertirCharString(char);
-    
     void grafoGlobal(ListaTablas*&, TablaHash*&, TablaHash*&);
-    
     string* InOrden(Nodo*, bool, AVL*, string*, int, int);
-    
     void sentenciaNodos(TablaHash*&, NodoHash*);
-    
     string* InOrden2(Nodo*, bool, AVL*, string*, int);
-    
     string verificarTipo(string, Nodo*);
-    
     Graphviz(const Graphviz& orig);
     virtual ~Graphviz();
 private:

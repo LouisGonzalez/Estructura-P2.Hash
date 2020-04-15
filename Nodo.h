@@ -39,8 +39,6 @@ public:
     void Set_NombreTabla(string);
     void Set_NoColumna(int);
     void Set_TotalColumnas(int);
-    
-    //GETS
     string Get_Bandera();
     string Get_NombreTabla();
     int Get_NoColumna();

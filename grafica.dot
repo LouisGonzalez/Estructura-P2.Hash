@@ -1,17 +1,33 @@
 digraph G { 
 rankdir=LR;
 node [shape=record,width=.1,height=.1];
-node0 [label = "<f0> |<f1> |<f2> |<f3> |<f4> |" , height=2.5];
-Nodo0200[label = "<f0>2" ];
-Nodo0300[label = "<f0>asd" ];
-Nodo0310[label = "<f0>g"];
+node0 [label = "<f0> |<f1> |<f2> |<f3> |<f4> |<f5> |<f6> |<f7> |" , height=2.5];
+Nodo0000[label = "<f0>asdasdsd" ];
+Nodo0310[label = "<f0>asd" ];
+Nodo0300[label = "<f0>asdasdsd" ];
+Nodo0321[label = "<f0>zxc"];
+
+Nodo0201[label = "<f0>sd" ];
+Nodo0210[label = "<f0>asdasdsd"];
+
+Nodo0102[label = "<f0>a" ];
+Nodo0110[label = "<f0>asdasdsd"];
+Nodo0402[label = "<f0>qqqq" ];
 
 
 
-Nodo0300 -> Nodo0310;
+Nodo0102 -> Nodo0110;
+
+Nodo0201 -> Nodo0210;
+
+Nodo0310 -> Nodo0300;
+Nodo0310 -> Nodo0321;
 
 
 
-node0: f2 -> Nodo0200;
-node0: f3 -> Nodo0300;
+node0: f0 -> Nodo0000;
+node0: f1 -> Nodo0102;
+node0: f2 -> Nodo0201;
+node0: f3 -> Nodo0310;
+node0: f4 -> Nodo0402;
 }

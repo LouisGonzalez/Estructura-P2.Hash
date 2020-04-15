@@ -213,6 +213,7 @@ void TablaHash::reposicionamientoNodos(int parametroFuncion, TablaHash *&tabla) 
            
             reposicionamiento->BuscarPorFuncion(tabla->Get_TotalNodos(), parametroFuncion, tabla, nodoAux);
 
+            
     
             nodoAux = nodoAux->Get_Siguiente();
 

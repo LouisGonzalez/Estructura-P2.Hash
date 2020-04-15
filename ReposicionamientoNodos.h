@@ -26,13 +26,18 @@ public:
     ReposicionamientoNodos();
     
     Nodo* BuscarPorFuncion(int, int, TablaHash*&, NodoHash*);
-    
     void VerificarFuncionesHash(AVL*, int, int, TablaHash*&, int);
-    
+    void VerificarFuncionesHash2(Nodo*, int, int, TablaHash*&, int);
     void InOrden(AVL*);
     static int orden;
     void Buscar(string, Nodo*, bool, Nodo*, string, AVL*, TablaHash*&);
     void BuscarCadena(string, Nodo*, Nodo*, string, AVL*, TablaHash*&);
+
+    
+    
+    
+    
+    
     
     
     ReposicionamientoNodos(const ReposicionamientoNodos& orig);

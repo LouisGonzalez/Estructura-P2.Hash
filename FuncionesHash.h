@@ -21,7 +21,6 @@ class FuncionesHash {
 public:
     FuncionesHash();
     FuncionesHash(const FuncionesHash& orig);
-    
     int valorAscii(char);
     int funcionString(string, int);
     int funcionEntero(int, int);

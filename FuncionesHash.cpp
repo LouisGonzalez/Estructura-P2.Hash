@@ -69,7 +69,7 @@ void FuncionesHash::reHashing(TablaHash *&tabla){
         nodo->Set_id(tabla->Get_TotalNodos());
         tabla->insertarNodo(nodo);
         
-       tabla->reposicionamientoNodos(tabla->Get_TotalNodos()-1, tabla);
+        tabla->reposicionamientoNodos(tabla->Get_TotalNodos()-1, tabla);
         
         reHashing(tabla);
     } else {

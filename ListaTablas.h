@@ -23,20 +23,14 @@ public:
     void Set_ultimo(TablaHash*);
     void Set_TotalColumnas(int);
     void Set_TotalElementos(int);
-    
     int Get_TotalElementos();
     int Get_TotalColumnas();
     TablaHash* Get_primero();
     TablaHash* Get_ultimo();    
-    
     void verTotalElementos(TablaHash*&, TablaHash*&);
-    
     void verColumnasTotales(TablaHash*&, TablaHash*&);
-    
     void insertarTabla(TablaHash*&, TablaHash*&, TablaHash*);
-    
     TablaHash* buscarTabla(TablaHash*&, TablaHash*&, string);
-    
     ListaTablas(const ListaTablas& orig);
     virtual ~ListaTablas();
 private:
